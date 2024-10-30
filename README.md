@@ -42,7 +42,7 @@ TYPE YOUR CODE HERE
 SHOW YOUR OUTPUT HERE
 
 ## RESULT:
-
+Thus the program has been executed by using CUDA to ________________.
 
 Questions:
 
