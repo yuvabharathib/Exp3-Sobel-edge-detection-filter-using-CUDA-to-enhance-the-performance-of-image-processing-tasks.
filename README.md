@@ -19,14 +19,17 @@ CUDA Toolkit and OpenCV installed.
 A sample image for testing.
 
 ## PROCEDURE:
-Tasks: a. Modify the Kernel:
+Tasks: 
+a. Modify the Kernel:
 
 Update the kernel to handle color images by converting them to grayscale before applying the Sobel filter.
 Implement boundary checks to avoid reading out of bounds for pixels on the image edges.
+
 b. Performance Analysis:
 
 Measure the performance (execution time) of the Sobel filter with different image sizes (e.g., 256x256, 512x512, 1024x1024).
 Analyze how the block size (e.g., 8x8, 16x16, 32x32) affects the execution time and output quality.
+
 c. Comparison:
 
 Compare the output of your CUDA Sobel filter with a CPU-based Sobel filter implemented using OpenCV.
